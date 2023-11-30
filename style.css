@@ -1,0 +1,46 @@
+* {
+  font-family: Helvetica
+}
+
+body {
+  margin: 0;
+  background-color: #275055;
+}
+
+
+svg {
+  background-color: #75efff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 75px auto;
+  border-radius: 5px;
+}
+
+#tooltip {
+  margin: 10px;
+  font-size: 22px;
+  position: absolute;
+  width: 205px;
+  height: 50px;
+  background-color: cornsilk;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+#title {
+  font-size: 30px;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+}
+
+.bar {
+  fill: #aaff75;
+}
+
+.bar:hover {
+  opacity: 0.1
+}
